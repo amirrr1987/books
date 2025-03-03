@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Refactoring UI
-      link: /books/ui/refactoring-ui/begin.md
+      link: /books/ui/refactoring-ui/start.md
     - theme: alt
       text: API Examples
       link: /api-examples
