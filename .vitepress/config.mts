@@ -1,5 +1,4 @@
 import { defineConfig } from "vitepress";
-import { rtl } from "vitepress-plugin-rtl";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
