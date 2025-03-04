@@ -408,7 +408,8 @@
 
 <div class="flex justify-center my-12">
     <img src="/refactoring-ui/135.png" />
-</div><div class="flex justify-center my-12">
+</div>
+<div class="flex justify-center my-12">
     <img src="/refactoring-ui/136.png" />
 </div><div class="flex justify-center my-12">
     <img src="/refactoring-ui/137.jpg" />
