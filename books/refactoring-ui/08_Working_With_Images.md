@@ -391,13 +391,24 @@ Empty state ها اولین تعامل کاربر با یک محصول یا وی
 
 <![if !vml]>![](file:///C:/Users/A-MAGH~1/AppData/Local/Temp/msohtmlclip1/01/clip_image119.png)<![endif]>
 
+<div class="flex justify-center my-12">
+    <img src="/images/refactoring-ui/image462.jpg" alt="ui"  />
+</div>
+
 در خصوص دکمه های رادیویی چطور؟ احتمالا هیچ چیز خسته کننده تر از یک دسته از برچسب ها به همراه دایره های کوچکی در کنار آنها وجود ندارد.
 
-<![if !vml]>![](file:///C:/Users/A-MAGH~1/AppData/Local/Temp/msohtmlclip1/01/clip_image121.png)<![endif]>
+
+<div class="flex justify-center my-12 flex-col items-center gap-4">
+    <img class="w-8" src="/images/refactoring-ui/1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image463.jpeg" alt="ui"  />
+</div>
 
 اگر مجموعه ای از دکمه های رادیویی بخش مهمی از UI در حال طراحی شما هستند، به جای آن چیزی مانند کارت های قابل انتخاب را امتحان کنید:
 
-<![if !vml]>![](file:///C:/Users/A-MAGH~1/AppData/Local/Temp/msohtmlclip1/01/clip_image123.png)<![endif]>
+<div class="flex justify-center my-12 flex-col items-center gap-4">
+    <img class="w-8" src="/images/refactoring-ui/1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image463.jpeg" alt="ui"  />
+</div>
 
 اجازه ندهید باورهای قبلی شما طرح های شما را تحت الشعاع قرار دهند. فراموش نکنید محدودیت ها قدرتمند هستند، اما گاهی کمی آزادی و رهایی از پیشفرض ها تنها چیزی است که برای تبدیل یک رابط کاربری خوب به عالی، به آن نیاز دارید.
 
