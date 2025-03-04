@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: "شروع کنید"
-      link: "/books/refactoring-ui/start"
+      link: "/books/refactoring-ui/01_Introduction"
     - theme: alt
       text: "درباره‌ی من"
       link: "/about"
