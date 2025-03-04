@@ -3,36 +3,25 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "My Books",
-  description: "A VitePress Site",
+  description: "books about UI and frontend and backend UI,vue,nest.js ",
   dir: "rtl",
   lang: "fa-IR",
-  markdown: {
-    container: {
-      tipLabel: "نکته",
-      warningLabel: "هشدار",
-      dangerLabel: "خطر",
-      infoLabel: "اطلاعات",
-      detailsLabel: "جزئیات",
-    },
-  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "UI", link: "/books/ui" },
+      { text: "Vue.js", link: "/books/vue" },
+      { text: "Nest.js", link: "/books/nest" },
     ],
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
+    sidebar: [],
+    search: {
+      provider: "local",
+    },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/amirrr1987" },
+      { icon: "linkedin", link: "https://linkedin.com/in/amirrr1987" },
     ],
   },
 });

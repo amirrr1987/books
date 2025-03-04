@@ -3,23 +3,22 @@
 layout: home
 
 hero:
-  name: "My Awesome Books"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "کتاب‌های آموزشی من"
+  text: "یادگیری آسان و کاربردی"
+  tagline: "منابعی برای تسلط بر Vue.js، Nest.js و طراحی UI"
   actions:
     - theme: brand
-      text: Refactoring UI
-      link: /books/ui/refactoring-ui/start.md
+      text: "شروع کنید"
+      link: "/books/refactoring-ui/start"
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: "درباره‌ی من"
+      link: "/about"
 
 features:
-  - title: Refactoring UI
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: "راهنمای Vue.js"
+    details: "یادگیری Vue.js از پایه تا پیشرفته با مثال‌های عملی"
+  - title: "راهنمای Nest.js"
+    details: "تسلط بر ساخت API‌های قدرتمند با Nest.js"
+  - title: "طراحی UI"
+    details: "اصول طراحی رابط کاربری حرفه‌ای و کاربرپسند"
 ---
-
