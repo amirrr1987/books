@@ -1,19 +1,18 @@
-
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/211.jpg" />
+    <img src="/refactoring-ui/211.jpg" />
 </div>
 
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/212.jpg" />
+    <img src="/refactoring-ui/212.jpg" />
 </div>
 
 شما می توانید با تغییر کنتراست، این مشکل را حل کنید. به جای استفاده از متن روشن بر روی یک پس زمینه تیره، از متن تیره در پس زمینه روشن استفاده کنید:
 
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/213.jpg" />
+    <img src="/refactoring-ui/213.jpg" />
 </div>
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/214.png" />
+    <img src="/refactoring-ui/214.png" />
 </div>
 
 در این تصویر رنگ هنوز هم برای کمک به پشتیبانی از متن وجود دارد، اما کمتر جلب توجه کرده و برای عملکرد های دیگر موجود در صفحه، مزاحمت ایجاد نمی کند.
@@ -25,11 +24,11 @@
 اگر با انتخاب رنگ پس زمینه و تنظیم روشنایی و اشباع شروع کنید ،متوجه خواهید شد که بدون نزدیک شدن به سفید خالص، رسیدن به کنتراست توصیه شده، بسیار مشکل است.
 
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/215.jpg" />
+    <img src="/refactoring-ui/215.jpg" />
 </div>
 
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/216.png" />
+    <img src="/refactoring-ui/216.png" />
 </div>
 
 شما تمایلی ندارید که متن اصلی و متن ثانویه یکسان به نظر برسند، پس چه کار دیگری می توانید انجام دهید؟
@@ -37,10 +36,10 @@
 خوب از آنجا که برخی از رنگ ها روشن تر از سایرین هستند ،یکی از راه های افزایش کنتراست، بدون نزدیک شدن به رنگ سفید، چرخاندن فام به سمت یک رنگ روشن تر مانند یشمی، سرخ یا زرد است.
 
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/217.png" />
+    <img src="/refactoring-ui/217.png" />
 </div>
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/218.png" />
+    <img src="/refactoring-ui/218.png" />
 </div>
 
 این یک روش مناسب برای در دسترس بودن متن و در عین حال حفظ رنگ است.
@@ -52,36 +51,36 @@
 برای مثال به این کارت های نمایش آمار نگاه کنید. در تصویر پایین، تصویری که یک فرد با کوررنگی قرمز و سبز مشاهده می کند را می بینید. اگر صرفا به رنگ ها تکیه کنیم، کسی که دارای کور رنگی قرمز و سبز است، به راحتی بهتر یا بدتر شدن این سنجه را تشخیص نخواهد داد یعنی متوجه نخواهد شد که اعداد و ارقام کم و زیاد شده اند چرا که قادر به مشاهده رنگ قرمز که نشان دهنده کاهش و رنگ سبز که نشانه افزایش مقدار نمایش داده شده است نیست:
 
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/219.png" />
+    <img src="/refactoring-ui/219.png" />
 </div>
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/220.png" />
+    <img src="/refactoring-ui/220.png" />
 </div>
 
 یک راه حل آسان برای این مشکل، انتقال اطلاعات به طریقی دیگر، مانند افزودن آیکون هایی برای نشان دادن مثبت یا منفی بودن این تغییر است. در این تصویر علاوه بر رنگ های سبز و قرمز، دو آیکون فلش بالا و پایین نیز اضافه شده اند که نشان دهنده صعودی یا نزولی بودن فرایند هستند.
 
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/221.png" />
+    <img src="/refactoring-ui/221.png" />
 </div><div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/222.png" />
+    <img src="/refactoring-ui/222.png" />
 </div>
 
 نظر شما در مورد نموداری که هر کدام از خطوط آن رنگ متفاوتی دارد، چیست؟
 
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/223.png" />
+    <img src="/refactoring-ui/223.png" />
 </div>
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/224.png" />
+    <img src="/refactoring-ui/224.png" />
 </div>
 
 در موقعیت هایی این چنینی، سعی کنید به جای استفاده از رنگ های کاملاکاملاً متفاوت ،بر روی تضاد یا Contrast آن ها باهم تکیه کنید. برای یک فرد کور رنگ، تشخیص تفاوت بین تیرگی و روشنایی دو رنگ، بسیار ساده تر از تشخیص تفاوت بین رنگ های مختلف است.
 
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/225.png" />
+    <img src="/refactoring-ui/225.png" />
 </div>
 <div class="flex justify-center my-12">
-    <img src="/public/refactoring-ui/226.png" />
+    <img src="/refactoring-ui/226.png" />
 </div>
 
 همیشه برای پشتیبانی از مفاهیم موجود در طراحی خود، از رنگ استفاده کنید اما هرگز از رنگ به عنوان تنها وسیله ارتباط استفاده نکنید
