@@ -1,14 +1,13 @@
 <div class="flex justify-center my-12">
-    <img  src="/refactoring-ui/08_Working_With_Images/245.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 ## از عکس های مناسب استفاده کنید
 
 عکس بد یک طرح را نابود خواهد کرد، حتی اگر همه چیز آن طرح عالی به نظر برسد.
 
-
 <div class="flex justify-center my-12">
-    <img  src="/refactoring-ui/08_Working_With_Images/246.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اگر طراحی شما به عکاسی نیاز داشته و شما یک عکاس با استعداد نیستید، دو گزینه دارید:
@@ -27,12 +26,10 @@
 
 تا به حال شده است که سعی در افزودن یک عنوان متنی بر روی یک تصویر بزرگ داشته اید، اما در نهایت به این نتیجه برسید که مهم نیست چه رنگی را برای این متن در نظر بگیرید، هر کاری انجام می دهید باز هم خواندن آن متن دشوار است؟
 
-
 <div class="flex flex-col items-center gap-4 justify-center my-12">
-    <img class="w-8"  src="/refactoring-ui/34.png" />
-    <img  src="/refactoring-ui/08_Working_With_Images/247.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
-
 
 در اینجا مشکل از متن نیست، بلکه تصویر مشکل دارد.
 

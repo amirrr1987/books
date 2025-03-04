@@ -11,5 +11,5 @@
 ضمنا خوانندگان این کتاب می توانند از کد تخفیف book برای خرید تمام محصولات سایت استفاده کنند.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/1.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>

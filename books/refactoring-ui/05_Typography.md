@@ -1,5 +1,5 @@
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/115.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 # یک مقیاس تایپوگرافی ایجاد کنید
@@ -7,11 +7,11 @@
 اکثر رابط های کاربری از اندازه های مختفلی برای فونت استفاده می کنند. مگر اینکه تیمی دارای یک سیستم طراحی سفت و سخت و حرفه ای باشد، به تصویر زیر دقت کنید. اندازه فونت ها بین 11 تا 26 پیکسل با 8 اندازه مختلف تنظیم شده است. واقعا بین 13 پیسکل و 14 پیکسل چقدر اختلاف است؟ چرا برای هر دو، یک مقدار در نظر گرفته نشده است؟
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/116.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/117.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 **به دو دلیل انتخاب اندازه فونت بدون وجود یک سیستم، ایده خوبی نیست:**
@@ -35,9 +35,9 @@
 شما کار خود را با یک مقدار پایه معقول شروع می کنید) این مقدار معمولا 16 پیکسل است، چراکه اندازه فونت پیش فرض در اکثر مرورگر ها است(، سپس نسبت خود را اعمال کرده و مقدار بعدی را بدست می آورید، پس از آن نسبت خود را بر این مقدار اعمال کرده و مقدار بعدی را بدست آورده و به همین شکل ادامه می دهید:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/118.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/119.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 به لحاظ ریاضی و محاسباتی این رویکرد بسیار جذاب است، اما در عمل به چند دلیل کار جالبی نیست.
@@ -63,17 +63,17 @@
 در اینجا مقیاسی مثال زده شده است که برای اکثر پروژه ها کاربرد دارد و به خوبی با مقیاس تعیین فاصله واندازه توصیه شده در فصول قبل برای "ایجاد یک سیستم تعیین فاصله و اندازه" همخوانی دارد:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/120.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/121.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 این مقیاس برای سرعت بخشیدن به تصمیمات شما محدود شده است، اما آن قدر محدودکننده نیست کهحس کنید یک اندازه مفید را از دست داده اید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/122.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/123.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 **از استفاده از واحدهای em اجتناب کنید**
@@ -85,9 +85,9 @@
 برای مثال ،تصور کنید که یک مقیاس تایپ را بر اساس em به شکل مقابل ایجاد کرده اید:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/124.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/125.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اگر برای عنصری اندازه فونت 1.25 em)حالت پیش فرض 20 پیکسل( را درنظر بگیرید، حال در داخل آن عنصر هر 1 em برابر با 20 px است. این بدان معنی است که اگر برای یکی از عناصر تو در تو، اندازه فونت
@@ -101,7 +101,7 @@
 با وجود هزاران تایپ فیس مختلف، جدا کردن انواع خوب از انواع بد، کاری بسیار مشکل است.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/126.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 مهارت تشخیص کل جزئیات مربوط به یک تایپ فیس خوب، سال ها طول می کشد. شما احتمالا سال ها فرصت ندارید، بنابراین در اینجا به چند ترفند برای تشخیص فوری یک تایپ فیس با کیفیت، اشاره شده است.
@@ -123,7 +123,7 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 بسیاری از دایرکتوری های فونت)مانند فونت های گوگل(، به شما امکان می دهند تا آنها را بر اساس "تعداد سبک ها"، که ترکیبی از وزن های موجود به همراه نسخه ایتالیک آن وزن ها است ،فیلتر کنید. یک راه عالی برای محدود کردن تعداد گزینه های انتخابی، انتخاب انواع دارای بیش از 10 سبک است)با احتساب انواعایتالیک(:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/127.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 مخصوصا در فونت های Google، این کار 85٪ از گزینه های موجود را کاهش داده و تنها کمتر از 50 فونت سنز-سریف برای انتخاب باقی می ماند.
@@ -133,7 +133,7 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 هنگامی که یک طراح فونت خانواده ای از فونت ها را طراحی می کند، معمولاً از این طراحی هدف خاصی دارد. فونت هایی که برای تیترها در نظر گرفته می شوند، معمولاً دارای فاصله بین حروف کمتر و حروف کوچک کوتاه تری هستند)ارتفاع xکمتر(، در حالی که فونت هایی که برای اندازه های کوچکتر در نظر گرفته شده اند، فاصله بین حروف بیشتر و حروف کوچک بلند تری دارند.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/128.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 این نکته را بخاطر بسپارید و از فونت هایی با چگالی بالا و ارتفاع x کوتاه، برای متن اصلی UI استفاده نکنید. **به محبوبیت فونت ها اعتماد کنید**
@@ -141,7 +141,7 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 اگر فونتی محبوب است، احتمالاً فونت خوبی است. بیشتر دایرکتوری های فونت، امکان مرتب سازی بر اساس محبوبیت را فراهم کرده اند، بنابراین این روش می تواند یک گزینه عالی، برای محدود کردن انتخاب ها باشد و به خصوص هنگام انتخاب گزینه ای غیر از یک تایپ فیس معمولی UI ، مفید است. برای مثال انتخاب یک سریف مناسب با خصوصیات خاص، می تواند برای شما به عنوان طراح دشوار باشد اما می توانید به بازخوردهای سایر طراحان و کاربران اعتماد کنید و از انتخاب های آنان استفاده کنید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/129.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 وقتی هزاران نفر استفاده از یک فونت را تایید می کنند، انتخاب را برای شما به عنوان طراح ،بسیار آسان تر می کنند.
@@ -151,7 +151,7 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 سرقت همیشه هم بد نیست! برخی از سایت های موردعلاقه خود را که حس می کنید طرفداران زیادی دارند و حرفه ای طراحی شده اند را بررسی کرده و ببینید که از چه نوع تایپ فیسی استفاده می کنند.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/130.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 بسیاری از تیم های فوق العاده طراحی، مملو از افرادی با نظرات بسیار عالی در زمینه تایپوگرافی هستند. آنهااغلب فونت های فوق العاده ای را انتخاب می کنند که شما احتمالا هیچ گاه با استفاده از رویکرد هایی که در بالا توضیح داده شد، پیدا نمی کردید.
@@ -169,7 +169,7 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 حدود 120 کاراکتر در هر خط
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/131.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 برای ایجاد بهترین تجربه خواندن، پاراگراف های خود را تا حدی گسترده کنید که بین 45 تا 75 کاراکتر در هر سطر جای بگیرد. بالا بردن تعداد کاراکترها باعث کوچک شدن اندازه فونت و یا کاهش فضای بین کاراکترها خواهد شد که هر دوی آن ها عواملی ضد خوانایی رابط کاربری هستند.
@@ -177,13 +177,13 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 حدود 45 تا 55 کاراکتر در هر خط
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/132.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div> حدود 55 تا 65 کاراکتر در هر خط <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/133.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div> حدود 65 تا 75 کاراکتر در هر خط
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/134.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 گاها ممکن است عرض بیش از 75 کاراکتر در هر خط نیز کارآیی داشته باشد، اما توجه داشته باشید که دست به کار خطرناکی زده اید- اگر خواهان ریسک کردن نیستید، به محدوده 45-75 کاراکتر بچسبید.
@@ -193,13 +193,13 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 اگر در پاراگرافی با ترکیبی از متن، آیکون و تصاویر یا سایر مؤلفه های بزرگ سروکار دارید، حتی اگر فضای زیادی برای گنجاندن متن ها دارید، باز هم باید عرض پاراگراف را محدود کنید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/135.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/136.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/137.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/138.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 ممکن است در ابتدا استفاده از عرض های مختلف در یک محتوا، دور از عقل به نظر برسد، اما تقریب ااً همیشه نتیجه خوبی خواهد داست.
@@ -213,31 +213,31 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 هنگام ترکیب این اندازه ها، احتمالا برای ایجاد تعادل، هر دو نوع متن را به شکل عمودی در مرکز قرار می دهید:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/139.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/140.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اگر در این حالت فضای کافی بین فونت هایی با اندازه های مختلف وجود داشته باشد، اغلب چندان جلب توجه نخواهد کرد، اما اگر این متون به هم نزدیک باشند، این همردیفی باعث بدقواره شدن رابط کاربری می شود:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/141.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/142.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 روش بهتر و حرفه ای این است که فونت هایی با اندازه های مختلف را بر اساس خط کرسی آن ها کنار هم قرار دهید) همان خط فرضی که حروف روی آن قرار دارند(:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/143.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 هنگامی که اندازه های مختلف فونت را بر اساس خط کرسی آنها هم ردیف می کنید، از مرجعی استفاده کرده اید که چشمان شما از قبل آن را درک می کنند چرا که چشمان شما به صورت پیشفرض کاراکترها را بر اساس خط کرسی، در کنار هم پیگیری و درک می کند.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/144.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/145.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 نتیجه نسبت به زمانی که این دو متن را در مرکز هم ردیف کرده بودید، ظاهر ساده تر و مرتب تری دارد.
@@ -247,7 +247,7 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 احتمالا شنیده اید که از منظر خوانایی، ارتفاع خطی در حدود 1.5 برابر اندازه فونت نقطه شروع خوبی است.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/146.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 در حالی این توصیه لزوماً اشتباه نیست، انتخاب ارتفاع خط مناسب برای متن، کمی پیچیده تر از استفاده از یک مقدار ثابت در تمام شرایط است.
@@ -259,9 +259,9 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 هنگامی که خطوط یک متن بیش از حد به یکدیگر نزدیک باشند، ممکن است خطی را در سمت چپ به پایان رسانده، سپس به سمت راست رفته و ندانید که کدام خط، خط بعدی است.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/147.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/148.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 این مشکل در صورت طولانی بودن خطوط، چند برابر می شود. هرچه چشمان شما برای خواندن سطر بعدی فاصله افقی بیشتری را طی کنند، امکان گم کردن خط، بیشتر است.
@@ -269,9 +269,9 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 این امر به معنی تناسب در ارتفاع خط و عرض پاراگراف است- محتوای باریک می تواند ارتفاع کوتاهتری)مثل 1.5( داشته باشد، اما محتوای گسترده و با طول خط بیشتر احتمالا به ارتفاع خطی درحدود 2 برابر نیاز دارد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/149.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/150.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 **محاسبه اندازه فونت**
@@ -281,25 +281,25 @@ apple-system ،Segoe UI ،Roboto ،Noto Sans ،Ubuntu ،Cantarell ،Helvetica Ne
 هنگامی که فونت متنی کوچک باشد، فاصله اضافی خط بسیار مهم است، چراکه باعث می شود چشم شما راحت تر خط بعدی را پیدا کند.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/151.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/152.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/153.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/154.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اما با بزرگتر شدن فونت، چشمان شما دیگر به کمک زیادی احتیاج ندارند. این بدان معنی است که شما برای متن درشت عنوان خود نیاز چندانی به فاصله اضافی خط ندارید و فاصله خطی برابر با 1 کاملاً مناسب است.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/155.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/156.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/157.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/158.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 ارتفاع خط و اندازه فونت بایکدیگر نسبت عکس دارند یعنی برای متون کوچک تر، از یک ارتفاع خط بلندتر و برای متون درشت تر، از ارتفاع خط کوتاهتر استفاده کنید.

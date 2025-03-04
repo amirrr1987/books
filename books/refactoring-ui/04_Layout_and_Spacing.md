@@ -1,5 +1,5 @@
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/68.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 # با فضای سفید بیش از حد کار خود را شروع کنید
@@ -9,13 +9,13 @@
 یکی از ساده ترین راه ها برای مرتب کردن یک طرح رابط کاربری این است که برای هر عنصر از رابط کاربری فضای بیشتری در نظر بگیرید تا المان ها در کنار هم بتوانند نفس بکشند.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/69.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/70.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/71.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/72.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 به نظر ساده می رسد، درست است؟ پس چرا معمولا این کار را انجام نمی دهیم؟
@@ -25,13 +25,13 @@
 هنگام طراحی رابط کاربری، تقریباً همیشه فضای سفید به یک طراحی اضافه می شود یعنی اگر جایی زیادی شلوغ به نظر برسد، با افزودن کمی مارجین یا پدینگ همه چیز بهتر به نظر خواهد رسید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/73.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/74.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/75.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/76.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 مشکل این رویکرد این است که برای ایجاد ظاهر بهتر ،برای عناصر کمترین میزان فضای تنفس را در نظر می گیرند. برای یک ظاهر فوق العاده، معمولاً به فضای سفید بیشتری احتیاج دارید.
@@ -39,13 +39,13 @@
 یک رویکرد بهتر در نظر گرفتن فضای سفید بیش از حد است، پس از جایگذاری اطلاعات و پایان طراحی می توانید تا راضی شدن از نتیجه کار، میزان فضای سفید را کم کنید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/77.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/78.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/79.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/80.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 ممکن است تصور کنید که در این صورت با فضای سفید بسیار زیادی مواجه خواهید شد، اما در عمل ،چیزی که برای یک المان از رابط کاربری ممکن است "کمی بیش از حد" به نظر برسد، در یک UI تکمیل شده و نهایی "کافی" به نظر خواهد رسید و در دید کلی، فضای سفید ایجاد شده بیش از حد نخواهد بود.
@@ -57,7 +57,7 @@
 به عنوان مثال، اگر در حال طراحی نوعی داشبورد هستید که نیاز است در آن، اطلاعات زیادی به صورت یکجا قابل مشاهده باشند، جمع کردن اطلاعات در یک صفحه، احتمالا ارزش شلوغ به نظر رسیدن این طرح را دارد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/81.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 # یک سیستم تعیین فاصله و اندازه ایجاد کنید
@@ -67,9 +67,9 @@
 بدترین حالت ممکن، این است که هنگام طراحی هر المان از رابط کاربری اندازه ها را پیکسل به پیکسل و با حرکت دادن جهت های روی صفحه کلید و به صورت چشمی تنظیم کنید، این نحوه عملکرد در بهترین حالت به شدت روند پیشرفت شما را کند کرده و در بدترین حالت یک طرح زشت و ناهماهنگ ایجاد می کند.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/82.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/83.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 به جای تنظیم چشمی و لحظه ای فاصله ها، خود را با مجموعه ای از مقادیر که از قبل تعریف شده اند، محدود کنید.
@@ -85,13 +85,13 @@
 برای مثال پرش از 12 پیکسل به 16 پیکسل یک افزایش 33 درصدی است!
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/84.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اما در انتهای بزرگ مقیاس که المان های بزرگ رابط کاربری و موارد وابسته به آن ها قرار دارد)مانند عرض یک کارت مربوط به محصولات یک فروشگاه آنلاین یا ارتفاع قسمت Hero در یک صفحه فرود(، تغییر در حد چند پیکسل نامحسوس است. حتی افزایش عرض یک کارت از 500 px به 520 px تنها یک افزایش 4 درصدی است، که هشت برابر کم اهمیت تر از پرش از 12 px به 16 px است.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/85.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اگر می خواهید سیستم شما تصمیم گیری در مورد اندازه را تسهیل کند، مطمئن شوید که در مقیاس شما، هیچ دو مقداری از 25٪ به یکدیگر نزدیک تر نباشند و در واقع فاصله هر دو مقدار از هم حداقل 25 درصد باشد.
@@ -109,7 +109,7 @@
 در اینجا مثالی از ایجاد یک مقیاس کارآمد با استفاده از این رویکرد آورده شده است:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/86.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 **استفاده از سیستم**
@@ -123,9 +123,9 @@
 در حالی که پیشرفت روند کار احتملا بزرگترین مزیت است، شما همچنین متوجه نوعی یکپارچگی ظریف در طرح های خود خواهید شد که قبلاقبلاً وجود نداشت، و نهایتا همه چیز کمی مرتب تر به نظر خواهد رسید چرا که شما از یک سیستم منظم استفاده کرده اید نه دست ها و چشم های پر از خطایتان .
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/87.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/88.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 یک سیستم تعیین فاصله و اندازه به شما کمک می کند تا در زمان کمتر و با تلاش کمتر، طراحی های بهتری را ایجاد کنید. این ارزشمند ترین مورد در فرایند طراحی است.
@@ -137,25 +137,25 @@
 بنابراین تعجب ندارد که اکثر ما هنگامی که ابزار طراحی مورد نظر خود را در نمایشگرهایی با وضوح بالا باز می کنیم، حداقل فضای 1200 تا 1400 پیکسل را برای پر کردن در نظر می گیریم. اما تنها به این دلیل که این فضا وجود دارد، به این معنی نیست که باید از آن استفاده کنید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/89.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/90.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اگر تنها به 600 پیکسل نیاز دارید، 600 پیکسل را استفاده کنید. گسترده کردن موارد یا پهن کردن آنها به شکل غیرضروری، تنها باعث مشکل تر شدن درک رابط کاربری می شود، در حالی که کمی فضای اضافی در اطراف و حواشی طرح، کسی را اذیت نمی کند.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/91.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/92.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 این رویکرد در مورد المان های یک رابط کاربری نیز کاربرد دارد .تنها به دلیل اینکه چیزی کل صفحه راگرفته است)مثل منوی بالای وبسایت ها(، نیازی نیست همه چیز را به شکل تمام صفحه طراحی کنید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/93.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/94.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 برای هر عنصر فضای مورد نیاز خودش را اختصاص دهید و فقط برای اینکه چیزی با سایر موارد مطابقت داشته باشد، آن را کشیده تر یا بزرگ تر نکنید.
@@ -167,13 +167,13 @@
 اگر در حال ایجاد یک وبسایت رسپانسیو هستید، سعی کنید با عرض حدود 400 پیکسلی شروع کرده و ابتدا چیدمان آن در گوشی همراه را طراحی کنید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/95.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 پس از آنکه از طراحی آن در گوشی همراه راضی شدید، آن را به یک صفحه نمایش بزرگتر منتقل کرده و هرآنچه را که تصور می کنید برای دسکتاپ باید تغییر اندازه دهید، اندازه آن را مطابق دسکتاپ تنظیم کنید. به احتمال زیاد برخلاف آنچه فکر می کنید، نیاز چندانی به تغییر وجود ندارد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/96.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 **ستون ها را در طراحی جدی بگیرید.**
@@ -183,17 +183,17 @@
 برای مثال، این فرم که دارای یک طرح باریک است را در نظر بگیرید:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/97.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/98.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اگر تمایل داشتید بدون دشوار کردن استفاده از این فرم، از فضای موجود بهتر استفاده کنید، می توانید متنراهنما را در یک ستون جداگانه قرار دهید:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/99.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/100.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 این عمل باعث می شود با جلوگیری از عریض شدن بیش از حد فرم، طراحی متعادل تر و سازگارتر به نظر برسد.
@@ -211,7 +211,7 @@
 به این تصویر و نحوه قرار گیری المان های رابط کاربری با استفاده از ستون ها دقت کنید .)به حاشیه های خالی اطراف طرح دقت کنید. این همان موردی است که قبلا راجع آن صجبت کردیم که نباید تمام صفحه را پر کنید(.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/101.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اما با وجود مفید بودن شبکه ها، این که تمام تصمیماتتان در خصوص چیدمان یک رابط کاربری را به شبکه ها بسپارید، کار اشتباهی است.
@@ -225,7 +225,7 @@
 برای مثال، در یک شبکه 12 ستونی، عرض هر ستون 8.33٪ است. تا زمانی که عرض یک عنصر با مضربی از٪8.33 برابر باشد، این عنصر از شبکه ها پیروی می کند.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/102.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 مشکل نگاه متعصبانه به سیستم های شبکه ای این است که گاها شرایطی ایجاد می شود که استفاده از عرض ثابت برای یک عنصر، از عرض نسبی و شناور معقول تر است.
@@ -233,35 +233,35 @@
 برای مثال ،یک چیدمان سنتی مثل نوار کناری را در نظر بگیرید. با استفاده از یک سیستم شبکه ای 12 ستونی، شما برای نوار کناری عرضی برابر با سه ستون) 25٪( و برای محتوای اصلی عرضی برابر با نه ستون )٪75( ایجاد می کنید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/103.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 در ابتدا به نظر می رسد مشکلی وجود ندارد، اما به این فکر کنید که هنگام تغییر اندازه صفحه چه اتفاقی می افتد. اگر صفحه را عریض تر کنید، نوار کناری نیز عریض تر شده و فضایی که می توان برای محتوای اصلی از آن استفاده کرد را، اشغال خواهد کرد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/104.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 به شکل مشابه، اگر صفحه را باریک تر کنید، نوار کناری از حداقل عرض معقول خود کوچک تر شده و چیدمانمتن آن به هم می خورد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/105.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 در این شرایط، منطقی تر این است که برای نوار کناری، مطابق با محتویات آن، عرض ثابتی در نظر گرفته شود. منطقه مربوط به محتوای اصلی نیز با کمک شبکه داخلی خود، منعطف بوده و فضای باقیمانده را پر خواهد کرد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/106.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/107.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 همانطور که در این تصویر می بینید، با وجود تغییر اندازه صفحه، اندازه سایدبار ثابت باقی مانده است. پس در واقع نباید اندازه هر المان از رابط کاربری را نسبی در نظر بگیرید .هیچ لزومی ندارد که اندازه تصویرپروفایل کاربر یا یک آیکون ،25 درصد یک صفحه باشد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/108.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/109.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 **بدون دلیل المان های رابط کاربری را کوچک نکنید**
@@ -269,25 +269,25 @@
 تصور کنید که در حال طراحی یک صفحه ورود به وبسایت هستید. استفاده از پهنای تمام صفحه زشت به نظر می رسد، بنابراین برای آن عرضی برابر با 6 ستون)50 درصد کل صفحه( و 3 ستون در هر طرف آن، در نظر می گیرید.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/110.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 در صفحات نمایشی با اندازه متوسط، متوجه خواهید شد که با وجود فضای کافی در اطراف ،برای بزرگ ترکردن آن، این فرم ورود کمی باریک است، بنابراین عرض آن را به 8 ستون تغییر می دهید)در هر طرف دو ستون خالی(.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/111.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 نکته جالب در مورد این رویکرد این است که به دلیل شناور و منعطف بودن عرض ستون ها، این فرم ورود در صفحات متوسط نسبت به صفحات بزرگ، عریض تر است در حالی که باید در صفحات کوچکتر، کوچکتر به نظر می رسید:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/112.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اگر می دانید که 500 پیکسل برای یک فرم ورود بهینه است، چرا با وجود فضای کافی، آن را کوچک کنید؟ به جای تعیین اندازه عناصر براساس شبکه (Grid)، یک عرض حداکثری را برای آنها درنظر بگیرید تا بیش از حد بزرگ نشوند؛ و تنها درصورتی آنها را کوچک کنید که عرض صفحه، از عرض حداکثری کوچکتر باشد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/113.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 برده شبکه بندی طرح نباشید و فضای مورد نیاز برای المان های موجود در رابط کاربری را فراهم کنید.
@@ -299,23 +299,23 @@
 به عنوان مثال ،تصور کنید که در حال طراحی یک مقاله در یک صفحه نمایش بزرگ هستید. اگر اندازه متن بدنه شما 18 px و اندازه عناوین شما 45 پیکسل باشد، در واقع اندازه عنوان این رابط کاربری2.5 برابر اندازه متن بدنه است.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/114.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 تصور کنید که برای کنترل طول خطوط در یک صفحه نمایش کوچک، اندازه متن بدنه خود را به 14 پیکسل کاهش داده اید. حالا اگر بیاییم مطابق رابطه قبلی بین اندازه فونت عنوان و بدنه، اندازه فونت عناوین را همان 2.5 برابر فونت بدنه در نظر بگیریم، به عدد 35 پیکسل برای فونت عنوان می رسیم که برای صفحات موبایل بسیار بزرگ است.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/115.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/116.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اندازه مناسب برای عناوین موجود در صفحات نمایش کوچک، چیزی بین 20 px و 24 px است:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/117.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/118.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 این اندازه یعنی 20 تا 24 پیکسل ،تنها 1.5تا 1.7 برابر pp14 است. این بدان معنی است که هیچ گونه رابطه ای بین آنها وجود نداشته و تعیین اندازه عنوان ها نسبت به اندازه بدنه متن کار بیهوده ای است. پس چه کار کنیم که تناسب حفظ شود؟
@@ -331,23 +331,23 @@
 مانند مثال قبلی، تعیین پدینگ بر اساس اندازه فونت فعلی بسیار مناسب و حرفه ای به نظر می رسد. در این صورت اگر بخواهید یک دکمه بزرگتر یا کوچکتر طراحی کنید، با تغییر اندازه فونت، پدینگ به طور خودکار بروزرسانی خواهد شد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/119.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 همان طور که در تصویر می بینید این امکان وجود دارد که دکمه ها کوچک و بزرگ شده و همان نسبت ها را برای پارامترهایی مانند مارجین و پدینگ حفظ کنند، اما آیا این همان چیزی است که واقعاً می خواهیم؟
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/120.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/121.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 دکمه های تصویر قبلی را با دکمه های زیر که پدینگ آن در اندازه های بزرگتر بیشتر شده و در اندازه های کوچکتر به طور نامتناسب کوچک تر می شود، مقایسه کنید:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/122.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/123.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 در اینجا دکمه بزرگ واقعا مثل یک دکمه بزرگ، و دکمه کوچک مثل یک دکمه کوچک به نظر می رسد)نه اینکه تنها زوم را تنظیم کرده باشیم.(
@@ -359,7 +359,7 @@
 هنگامی که گروهی از عناصر را بخواهیم به صورت واضح از هم جدا کنیم، معمولاً با کمک یک حاشیه یا رنگ پس زمینه مشخص می کنیم که هر عنصر به کدام گروه تعلق دارد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/124.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 اما اگر از یک مرز مشخص استفاده نشود، این مورد که هر عنصر به چه گروهی تعلق دارد، دیگر چندان واضح نیست.
@@ -367,7 +367,7 @@
 تصور کنید در حال طراحی فرمی حاوی انبوهی از برچسب ها و فیلدهای ورودی هستید. اگر فاصله زیر هربرچسب مشابه حاشیه زیر فیلد ورودی باشد، عناصر موجود در گروه های این فرم، چندان مرتبط به نظرنخواهند رسید و در واقع مشخص نخواهد شد که برچسب بالایی به فیلد مربوط است یا برچسب پایینی.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/125.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 در این مثال ،در بهترین حالت کاربر باید برای درک رابط بیشتر تلاش کند و با تحلیلی که انجام می دهد متوجه شود که هر کدام از برچسب ها مربوط به کدام فیلد است. در بدترین حالت کاربر در تشخیص فیلد و برچسب مربوط به آن دچار خطا می شود و اطلاعات غلط را وارد فیلد نامربوط می کند.
@@ -375,19 +375,19 @@
 راه حل این مشکل افزایش فضای بین گروه های این فرم است، به شکلی که مشخص شود هر برچسب به کدام ورودی تعلق دارد. اگر بیاییم فاصله هر برچسب با ورودی مربوط به خود را، کمتر از فاصله هر فیلد با برچسب بعدی در نظر بگیریم، به راحتی ارتباط بین فیلد ها و برچسب های متناظرشان برقرار خواهد شد.
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/126.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 این مشکل در مقالات نیز دیده می شود، جایی که در بالای عنوان مربوط به هر بخش، فضای کافی وجودندارد، در اینجا کاربر متوجه نمی شود که این عنوان، چکیده ای از متن بالایی است یا عنوانی برای متن بعدی:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/127.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/128.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/129.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/130.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 به این لیست دقت کنید که در آن ارتفاع تمام خط ها برابر است. در این لیست ها کاربران در تشخیص گزینههای موجود در لیست به مشکل برمی خورند چرا که ارتفاع خطوط هر آیتم، با ارتفاع خط بین آیتم هایمختلف لیست برابر است.
@@ -395,26 +395,26 @@
 در حالی که در تصویر پایینی این مشکل حل شده و ارتفاع خطوط یک آیتم با ارتفاع خط بین دو آیتم، متفاوت در نظر گرفته شده است بنابراین آیتم های مختلف لیست، کاملا جدا از هم تشخیص داده می شوند :
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/131.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/132.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/133.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/134.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 همچنین نباید تنها تصور کرد که تنها فاصله های عمودی در تعیین ارتباط یا عدم ارتباط موارد مختلف نقشندارند؛ فاصله های افقی هم به همان اندازه اهمیت دارند. به تصویر زیر دقت کنید. در تصویر بالایی اندازه هرلیبل آیکون با آیکون های اطراف آن، برابر در نظر گرفته شده در حالی که در تصویر پایین ،فاصله هر آیکون از لیبل مربوط به خودش، کمتر از آیکون های دیگر است پس به راحتی با تغییر فواصل، می توان ارتباط اجزا با یکدیگر را مدیریت کرد:
 
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/135.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 <div class="flex justify-center my-12">
-    <img src="/refactoring-ui/136.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/137.jpg" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div><div class="flex justify-center my-12">
-    <img src="/refactoring-ui/138.png" />
+    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
 </div>
 
 هر زمان که برای ایجاد ارتباط بین گروهی از عناصر به فاصله متکی هستید، مطمئن شوید که نسبت به داخل، در اطراف هر گروه فضای بیشتری وجود داشته باشد چرا که بدترین رابط های کاربری همان هایی هستند درک آنها دشوار است.

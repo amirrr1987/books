@@ -12,9 +12,8 @@ let counter = 33;
 content = content.replace(/<img\s+[^>]*src="([^"]*)"[^>]*>/g, (match, src) => {
   const newSrc = `/refactoring-ui/08_Working_With_Images/${counter}.png`;
   counter++;
-  return `<img src="${newSrc}" />`;
+  return `<img src="/images/refactoring-ui/image1.png" alt="ui"  />`;
 });
-
 
 // ذخیره‌ی فایل
 fs.writeFileSync(filePath, content, "utf8");
