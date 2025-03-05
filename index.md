@@ -1,35 +1,33 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "کتاب‌های خفن من"
-  text: "دور دنیا رو با کد و طراحی بترکون!"
-  tagline: "منابع ناب برای تبدیل شدن به استاد Vue.js، Nest.js و طراحی UI"
+  name: "کتاب‌های تخصصی"
+  tagline: "یادگیری پیشرفته Vue.js، Nest.js و طراحی رابط کاربری"
   image:
-    src: "/images/refactoring-ui/image1.png" # یه تصویر جذاب از پوشه public
-    alt: "تصویر هیرو خفن"
+    src: "/images/refactoring-ui/image1.png" # یک تصویر حرفه‌ای از پوشه public
+    alt: "تصویر هیرو"
   actions:
     - theme: brand
-      text: "بزن بریم!"
+      text: "شروع کنید"
       link: "/books/refactoring-ui/01_Introduction"
     - theme: alt
-      text: "من کی‌ام؟"
+      text: "درباره من"
       link: "/about"
 
 features:
   - icon: 🚀
-    title: "موشک Vue.js"
-    details: "از صفر تا بی‌نهایت Vue.js رو با پروژه‌های عملی فتح کن!"
+    title: "Vue.js پیشرفته"
+    details: "از پایه تا پیشرفته با مثال‌های عملی."
     link: "/books/vue/01_Introduction"
   - icon: ⚙️
-    title: "ماشین Nest.js"
-    details: "APIهایی بساز که همه رو انگشت به دهن کنه!"
+    title: "Nest.js حرفه‌ای"
+    details: "ساخت APIهای ایمن و مقیاس‌پذیر."
     link: "/books/nest/01_Getting_Started"
   - icon: 🎨
-    title: "جادوی طراحی UI"
-    details: "رابط کاربری خلق کن که چشم‌ها رو خیره کنه!"
+    title: "طراحی UI مدرن"
+    details: "تکنیک‌های طراحی رابط کاربری حرفه‌ای."
     link: "/books/refactoring-ui/01_Introduction"
 
-footer: "ساخته شده با عشق و کد | © 2025"
+footer: "طراحی و توسعه با دقت | © 2025"
 ---
