@@ -1,5 +1,5 @@
 <div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image36.jpg" alt="ui"  />
 </div>
 
 ## همه عناصر رابط کاربری برابر نیستند
@@ -10,18 +10,16 @@
 
 اگر تمام عوامل موجود در یک رابط کاربری برای جلب توجه با یکدیگر رقابت کنند، این رابط کاربری مانند دیوار بزرگی از محتوا، که مشخص نیست چه چیزی واقعا اهمیت دارد ،نا منظم و آشفته به نظر خواهد رسید. به تصویر زیر دقت کنید، جدا از دکمه های Buy و Sell که متفاوت به نظر می رسند، هیچ تفکیک خاصی بین اهمیت سایر اطلاعات نمی شود داشت و نمی توانید بگویید که کدام نوع از اطلاعات با اهمیت ترند:
 
-<div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-</div><div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/0.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image39.jpg" alt="ui"  />
 </div>
 
 هنگامی که عمداً از میزان تاکید اطلاعات ثانویه و ثالث کم کرده و سعی کنید مهم ترین عناصر را برجسته کنید)حتی اگر طرح رنگ ،نوع فونت و چیدمان تغییر نکرده باشد( نتیجه بلافاصله دلپذیرتر خواهد شد:
 
-<div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-</div><div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image45.jpeg" alt="ui"  />
 </div>
 
 چگونه این اتفاق رخ می دهد؟ در ادامه برخی استراتژی های خاص، که می توانید از آن برای ایجاد سلسله مراتب در طرح های خود استفاده کنید را پوشش خواهیم داد.
@@ -30,9 +28,9 @@
 
 تکیه بیش از حد به اندازه فونت برای کنترل سلسله مراتب کار اشتباهی است. این کار اغلب منجر به تولید محتوای اولیه بسیار بزرگ و محتوای ثانویه بسیار کوچک می شود.
 
-<div class="flex flex-col items-center gap-y-4 my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/0.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image47.jpeg" alt="ui"  />
 </div>
 
 به جای اینکه کل سنگینی بار را بر دوش اندازه فونت بیاندازید، سعی کنید از وزن فونت یا رنگ فونت هم استفاده کنید.
@@ -40,26 +38,26 @@
 به عنوان مثال ،بولد کردن عناصر اولیه به شما امکان می دهد تا از فونتی با اندازه معقول تر استفاده کنید و اغلب در انتقال میزان اهمیت موفق تر باشید:
 
 <div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image48.jpg" alt="ui"  />
 </div>
 
 همچنین، استفاده از یک رنگ ملایم تر برای متن ثانویه)به جای اندازه کوچک فونت(، بدون قربانی کردن خوانایی طرح، مشخص می کند که اهمیت این متن کمتر است:
 
 <div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image49.jpg" alt="ui"  />
 </div>
 
 **سعی کنید از دو یا سه رنگ استفاده کنید:**
 
-- یک رنگ تیره برای محتوای اصلی)مانند عنوان مقاله(
-- خاکستری برای محتوای ثانویه)مانند تاریخ انتشار مقاله(
-- خاکستری کمرنگ تر برای محتوای ثالث)مثل پاورقی( به همین ترتیب، معمولا دو وزن فونت برای UI کافی است:
-- یک وزن فونت معمولی)400 یا 500 بسته به فونت( برای بیشتر متون
-- یک وزن فونت سنگین تر)600 یا 700( برای متونی که قصد تأکید آن را دارید
+- یک رنگ تیره برای محتوای اصلی <span>(مانند عنوان مقاله)</span>
+- خاکستری برای محتوای ثانویه <span>(مانند تاریخ انتشار مقاله)</span>
+- خاکستری کمرنگ تر برای محتوای ثالث (مثل پاورقی) به همین ترتیب، معمولا دو وزن فونت برای UI کافی است:
+- یک وزن فونت معمولی <span>( 400 یا 500 بسته به فونت )</span> برای بیشتر متون
+- یک وزن فونت سنگین تر<span>( 600 یا 700 )</span> برای متونی که قصد تأکید آن را دارید
 
-<div class="flex flex-col items-center gap-y-4 my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image51.jpeg" alt="ui"  />
 </div>
 
 از استفاده از فونت هایی با وزن زیر 400 در رابط کاربری خودداری کنید. این فونت ها ممکن است در عناوین بزرگ کارآیی داشته باشند، اما خواندن آنها در اندازه های کوچکتر دشوار است. اگر در نظر دارید برای کم کردن تاکید برخی متون از وزن های کمتر استفاده کنید، به جای آن از یک رنگ روشن تر یا اندازه فونت کوچکتر استفاده کنید.
@@ -68,9 +66,9 @@
 
 رنگ آمیزی متن با خاکستری روشن یک راهی عالی برای کم کردن تأکید آن در یک زمینه سفید است، اما در پس زمینه های رنگی چندان عالی به نظر نمی رسد پس سعی کنید از رنگ خاکستری، فقط روی زمینه سفید استفاده کنید.
 
-<div class="flex flex-col items-center gap-y-4 my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/0.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image52.jpg" alt="ui"  />
 </div>
 
 این امر به این دلیل است که جلوه ای که ما از رنگ خاکستری بر روی زمینه سفید مشاهده می کنیم، در واقع همان کنتراست کاهش یافته است.
@@ -78,13 +76,13 @@
 امری که به ایجاد سلسله مراتب کمک می کند، در واقع نزدیکتر کردن رنگ متن به رنگ پس زمینه است و نه خاکستری کردن آن.
 
 <div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image54.jpg" alt="ui"  />
 </div>
 
 شاید فکر کنید که ساده ترین راه برای رسیدن به این هدف استفاده از متن سفید و کاهش میزان Opacity است:
 
 <div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image55.jpg" alt="ui"  />
 </div>
 
 در حالی که این عمل باعث کاهش کنتراست شده، اما اغلب متنی را ایجاد می کند که کسل کننده، کم رنگ و گاها حتی ناقص به نظر می رسد.
@@ -92,18 +90,17 @@
 حتی بدتر از آن، استفاده از این روش در روی یک تصویر یا الگو، به معنای نمایش پس زمینه در میان متن است:
 
 <div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image56.jpg" alt="ui"  />
 </div>
 
 یک رویکرد بهتر انتخاب رنگ جدید بر اساس رنگ پس زمینه است.
 
 رنگی مشابه رنگ پس زمینه انتخاب کنید و با تنظیم Saturation آن، به یک رنگ نهایی، کمی متفاوت از رنگ اصلی برسید:
 
-<div class="flex flex-col items-center gap-y-4 my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image58.jpeg" alt="ui"  />
 </div>
-
 با انتخاب دستی یک رنگ به این روش، می توان بدون محو کردن متن، کنتراست را کاهش داد.
 
 ## با عدم تأکید، تأکید ایجاد کنید
@@ -112,33 +109,37 @@
 
 به عنوان مثال، با وجود تلاش برای ایجاد تاکید در آیتم فعال در منوی تصویر زیر با در نظر گرفتن رنگی متفاوت ،باز هم در مقایسه با آیتم های غیرفعال، چندان تفاوتی ندارد:
 
-<div class="flex flex-col items-center gap-y-4 my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/0.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image60.jpeg" alt="ui"  />
 </div>
 
 هنگامی که در چنین موقعیت هایی قرار می گیرید، به جای تلاش برای تأکید بیشتر بر عنصری که نیاز به جلب توجه دارد، روی کاهش تاکید بر عناصری که المان مورد نظر شما با آن رقابت می کند، متمرکز شوید.
 
 در این مثال، می توانید با انتخاب رنگ های ملایم تر و کم رنگ تر برای موارد غیرفعال و محو کردن آنها در پس زمینه، این کار را انجام دهید:
 
-<div class="flex flex-col items-center gap-y-4 my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image62.jpeg" alt="ui"  />
 </div>
 
 این طرز فکر را می توان در بخش های بزرگتر یک رابط کاربری نیز اعمال کرد. به عنوان مثال، اگر سایدبار در محصول با بخش اصلی محتوای شما رقابت می کند ،برای آن رنگ پس زمینه در نظر نگیرید و درواقع اجازه دهید محتوای این بخش، مستقیما در پس زمینه صفحه اصلی جای بگیرد:
 
-<div class="flex justify-center my-12 bg-red-500">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex  my-12 flex-col items-center gap-4">
+    <div  class="flex gap-x-48">
+        <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
+        <img class="w-8 h-8" src="/images/refactoring-ui/0.png" alt="ui"  />
+    </div>
+    <img src="/images/refactoring-ui/image63.jpg" alt="ui"  />
 </div>
 
 ## برچسب آخرین راه حل است
 
 هنگام ارائه داده ها به کاربر)به ویژه داده های تعریف شده در پایگاه داده(، به راحتی ممکن است در تله استفاده از برچسب ها گرفتار شوید.
 
-<div class="flex flex-col items-center gap-y-4 my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/0.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image66.jpeg" alt="ui"  />
 </div>
 
 مشکل این رویکرد در این است که زمانی که داده ها را با لیبل به کاربر عرضه کنید، میزان تاکیدی که روی دیتای اصلی و لیبل صورت می گیرد، تقریبا به یک اندازه خواهد بود و ایجاد سلسله مراتب سخت تر می شود .
@@ -153,9 +154,9 @@
 
 کارشناس پشتیبانی.
 
-<div class="flex flex-col items-center gap-y-4 my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
+<div class="flex flex-col items-center gap-4 justify-center my-12">
+    <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
+    <img src="/images/refactoring-ui/image68.jpeg" alt="ui"  />
 </div>
 
 اگر بتوانید داده ها را بدون برچسب ارائه دهید، تأکید بر اهمیت یا شناسایی اطلاعات و استفاده از رابط کاربری بسیار ساده تر شده و در عین حال "آراسته" تر و منظم تر به نظر خواهد رسید.
