@@ -12,9 +12,9 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "خانه", link: "/" },
-      { text: "رابط کاربری", link: "/books/ui" },
-      { text: "ویو.جی‌اس", link: "/books/vue" },
-      { text: "نست.جی‌اس", link: "/books/nest" },
+      { text: "UI/UX", link: "/books/ui" },
+      { text: "Vue.js", link: "/books/vue" },
+      { text: "Nest.js", link: "/books/nest" },
       { text: "تماس با من", link: "/contact" },
     ],
     sidebar: {
@@ -59,7 +59,7 @@ export default defineConfig({
       ],
       "/books/vue/": [
         {
-          text: "کتاب‌های ویو.جی‌اس",
+          text: "کتاب‌های Vue.js",
           collapsed: false,
           items: [
             { text: "آشنایی با ویو", link: "/books/vue/01_Introduction" },
@@ -69,7 +69,7 @@ export default defineConfig({
       ],
       "/books/nest/": [
         {
-          text: "کتاب‌های نست.جی‌اس",
+          text: "کتاب‌های Nest.js",
           collapsed: false,
           items: [
             { text: "شروع کار با نست", link: "/books/nest/01_Getting_Started" },
