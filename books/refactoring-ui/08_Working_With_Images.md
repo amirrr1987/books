@@ -1,19 +1,16 @@
-<div class="flex justify-center my-12 flex-col items-center gap-4">
-    <img src="/images/refactoring-ui/image349.png" alt="ui"  />
-</div>
+<script setup>
+import Image1 from '/components/Image1.vue'
+import Image2 from '/components/Image2.vue'
+import Image3 from '/components/Image3.vue'
+</script>
+
+<Image1 name="image349.png" />
 
 ## از عکس های مناسب استفاده کنید
 
 عکس بد یک طرح را نابود خواهد کرد، حتی اگر همه چیز آن طرح عالی به نظر برسد.
 
-<div class="flex  my-12 flex-col items-center gap-4">
-    <div  class="flex gap-x-48">
-        <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
-        <img class="w-8 h-8" src="/images/refactoring-ui/0.png" alt="ui"  />
-    </div>
-    <img src="/images/refactoring-ui/image351.jpg" alt="ui"  />
-</div>
-
+<Image3 :mode="1" name="image351.jpg" />
 
 اگر طراحی شما به عکاسی نیاز داشته و شما یک عکاس با استعداد نیستید، دو گزینه دارید:
 
@@ -31,10 +28,7 @@
 
 تا به حال شده است که سعی در افزودن یک عنوان متنی بر روی یک تصویر بزرگ داشته اید، اما در نهایت به این نتیجه برسید که مهم نیست چه رنگی را برای این متن در نظر بگیرید، هر کاری انجام می دهید باز هم خواندن آن متن دشوار است؟
 
-<div class="flex flex-col items-center gap-4 justify-center my-12">
-    <img class="w-8 h-8" src="/images/refactoring-ui/0.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image354.jpeg" alt="ui"  />
-</div>
+<Image2 isBad name="image354.jpeg" />
 
 در اینجا مشکل از متن نیست، بلکه تصویر مشکل دارد.
 
@@ -56,10 +50,7 @@
 
 یک راه برای افزایش کنتراست کلی متن، افزودن یک لایه نیمه شفاف به تصویر پس زمینه است.
 
-<div class="flex flex-col items-center gap-4 justify-center my-12">
-    <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image358.jpeg" alt="ui"  />
-</div>
+<Image2  name="image358.jpeg" />
 
 یک لایه پوششی سیاه، نقاط روشن تصویر را کم رنگ تر کرده و به برجسته شدن متن سفید رنگی که روی آن قرار گرفته کمک می کند ،به همین صورت یک پوشش سفید نقاط تیره تصویر را روشن تر کرده و به برجسته شدن یک متن تیره روی تصویر کمک می کند.
 
@@ -69,10 +60,7 @@
 
 اگر خواهان کنترل بیشتری هستید، راه حل دیگر پایین آوردن کنتراست خود تصویر است:
 
-<div class="flex flex-col items-center gap-4 justify-center my-12">
-    <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image359.jpg" alt="ui"  />
-</div>
+<Image2  name="image359.jpg" />
 
 کاهش کنتراست، میزان روشنی یا تیرگی کلی تصویر را تغییر خواهد داد، بنابراین حتماً پس از آن میزان روشنایی را تنظیم کنید.
 
@@ -82,11 +70,7 @@
 
 برخی از نرم افزارهای ویرایش عکس، این خصوصیت را به عنوان یک ویژگی اصلی شامل می شوند.
 
-<div class="flex flex-col items-center gap-4 justify-center my-12">
-    <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
-    <img src="/images/refactoring-ui/image362.jpeg" alt="ui"  />
-</div>
-
+<Image2  name="image362.jpeg" />
 
 این روش همچنین می تواند یک راه عالی برای جفت شدن تصویر پس زمینه با رنگ های موجود در برند شما باشد.
 
@@ -115,14 +99,11 @@ Blur radius بزرگ استفاده کنید.
 
 از آنجا که این تصاویر برداری هستند ،پس افزایش اندازه آسیبی به آنها نخواهد زد و حالت پیکسلی پیدا نخواهند کرد، درست است؟
 
-<div class="flex flex-col items-center gap-4 justify-center my-12">
-    <img src="/images/refactoring-ui/image366.jpg" alt="ui"  />
-</div>
+<Image1  name="image366.jpg" />
 
 در حالی که کیفیت تصاویر برداری با افزایش اندازه کاهش نمی یابد، آیکون هایی که با اندازه 16 تا 24 پیکسل کشیده شده اند، با افزایش اندازه ای تا حدود 3 یا 4 برابر، هرگز چندان حرفه ای به نظر نخواهند آمد چرا که عموم آیکون ها به این جهت که در تمام اندازه ها حتی اندازه های کوچک، مفاهیم را منتقل کنند، فاقد جزئیات بوده و بنابراین با نمایش آن ها در ابعاد بزرگ ،نامتناسب به نظر خواهند رسید.
 
 آیکون هایی در ابعاد بزرگ زیبا به نظر خواهند رسید که سطح مناسبی از جزئیات را ارائه دهند.
-
 
 <div class="flex  my-12 flex-col items-center gap-4">
     <div  class="flex gap-x-28">
@@ -132,7 +113,6 @@ Blur radius بزرگ استفاده کنید.
     </div>
     <img src="/images/refactoring-ui/image368.jpeg" alt="ui"  />
 </div>
-
 
 اگر تنها آیکون های کوچکی در اختیار دارید، آنها را در شکل دیگری مانند دایره، مربعی با گوشه های گرد یا حتی اشکال نامنظم محصور کرده و برای این پس زمینه آیکون هم رنگ مناسبی در نظر بگیرید. درست مانند تصویر زیر که آیکون را درون دایره قرار داده ایم:
 
@@ -161,20 +141,13 @@ Blur radius بزرگ استفاده کنید.
     <img src="/images/refactoring-ui/image373.jpg" alt="ui"  />
 </div>
 
-
-
 یک فونت px 16 در اپلیکیشن، در تصویر شما به یک فونت px 4 تبدیل شده است و بازدیدکنندگان مجبور هستند با فاصله دو اینچی از صفحه نمایش به آن نگاه کرده و سعی کنند متن های آن را متوجه شوند. اگر خواهان استفاده از یک تصویر دقیق در طراحی خود هستید، از این تصویر در یک صفحه نمایش کوچکترعکس گرفته)مثل تبلت( و فضای زیادی را برای آن در نظر بگیرید تا مجبور به کاهش اندازه آن نشوید:
-
-
-
-
 
 <div class="flex flex-col items-center gap-4 justify-center my-12">
     <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
     <div class="text-sm font-light">جزئیات تصویر ،نسبتا خوب به نظر می رسند.</div>
     <img src="/images/refactoring-ui/image374.jpg" alt="ui"  />
 </div>
-
 
 یا تنها از بخشی از آن عکس گرفته تا بتوانید بدون نیاز به کوچک کردن، آن را در فضای کمتری نمایش دهید:
 
@@ -183,14 +156,12 @@ Blur radius بزرگ استفاده کنید.
     <img src="/images/refactoring-ui/image376.jpeg" alt="ui"  />
 </div>
 
-
 اگر واقعاواقعاً مجبور به قرار دادن کل عکس صفحه یک اپلیکیشن در یک فضای اندک هستید، سعی کنید با حذفجزئیات و جایگزینی بعضی از متن ها، یک نسخه ساده تر از UI موجود در اسکرین شات را ایجاد کنید:
 
 <div class="flex flex-col items-center gap-4 justify-center my-12">
     <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
     <img src="/images/refactoring-ui/image378.jpeg" alt="ui"  />
 </div>
-
 
 این روش، باعث می شود که کاربران به جای تمرکز بر جزئیات غیر ضروری تصویر، روی کلیات آن که از اهمیت بیشتری برخوردارند تمرکز کنند.
 
@@ -205,7 +176,6 @@ Blur radius بزرگ استفاده کنید.
 <div class="flex flex-col items-center gap-4 justify-center my-12">
     <img src="/images/refactoring-ui/image379.jpg" alt="ui"  />
 </div>
-
 
 یک روش موثر برای حل این مشکل، ایجاد یک نسخه بسیار ساده از لوگو در اندازه هدف است، با این کار میتوانید چیزی که می خواهید کاربر واقعا ببیند را طراحی کنید. اگر مجبور بودید در جزئیات تغییر ایجاد کنید ،نگران نباشید.
 
@@ -234,7 +204,6 @@ Blur radius بزرگ استفاده کنید.
 </div>
 
 امروزه انجام این کار با استفاده از CSS بسیار آسان است البته وظیفه شما به عنوان طراح رابط کاربری، برنامه نویسی فرانتند نیست اما توجه به این نکته و گنجاندن آن در طرح ها ضروری است.
-
 
 <div class="flex flex-col items-center gap-4 justify-center my-12">
     <img class="w-8 h-8" src="/images/refactoring-ui/1.png" alt="ui"  />
