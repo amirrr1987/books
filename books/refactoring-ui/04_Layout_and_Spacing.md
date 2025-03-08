@@ -1,8 +1,5 @@
 <script setup>
 import Image from '/components/Image.vue'
-import Image1 from '/components/Image1.vue'
-import Image2 from '/components/Image2.vue'
-import Image3 from '/components/Image3.vue'
 </script>
 
 <Image name="04_layout_and_spacing/01.png" />
