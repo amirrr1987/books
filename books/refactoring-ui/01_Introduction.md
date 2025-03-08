@@ -1,3 +1,9 @@
+<script setup>
+import Image from '/components/Image.vue'
+
+</script>
+<Image name="01_introduction/01.png" />
+
 ## **مقدمه**
 
 از ابتدای راه اندازی مرجع UI و UX فارسی، همیشه در نظر داشتیم بهترین و مناسب ترین نوع محتوا را در اختیار علاقه مندان این حوزه قرار دهیم و تمام تلاشمان را در این راه به کار برده ایم.
@@ -10,6 +16,4 @@
 
 ضمنا خوانندگان این کتاب می توانند از کد تخفیف book برای خرید تمام محصولات سایت استفاده کنند.
 
-<div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image1.png" alt="ui"  />
-</div>
+<Image name="01_introduction/02.png" />
