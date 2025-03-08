@@ -1,6 +1,10 @@
-<div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image464.jpg" alt="ui"  />
-</div>
+<script setup>
+import Image from '/components/Image.vue'
+</script>
+
+<Image name="09_final_tips/01.jpg" />
+
+
 
 امیدوارم بعد از خواندن این کتاب، حس اعتماد به نفس بیشتری در توانایی خود برای جذاب تر کردن ظاهر محصولاتی که قرار است طراحی کنید داشته باشید. اما با اینکه ما تمام تلاش خود را برای گنجاندن کلیه ی ایده های خوب ممکن انجام داده ایم، همیشه موارد بیشتری برای یادگیری وجود خواهد داشت.
 
@@ -12,19 +16,19 @@
 
 "آیا در اینجا طراح کاری را انجام داده است که من هرگز به انجام آن فکر نکرده ام؟" شاید نکته در معکوس کردن رنگ پس زمینه در یک datepicker است:
 
-<div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image466.jpg" alt="ui"  />
-</div> یا نحوه قرارگیری یک دکمه در داخل فیلد متنی به جای قرار گیری در خارج آن:
 
-<div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image467.jpg" alt="ui"  />
-</div>
+<Image name="09_final_tips/02.jpg" />
+
+
+ یا نحوه قرارگیری یک دکمه در داخل فیلد متنی به جای قرار گیری در خارج آن:
+
+<Image name="09_final_tips/03.jpg" />
+
 
 یا نکته ساده ای مثل استفاده از دو رنگ متفاوت برای فونت یک عنوان:
 
-<div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image468.jpg" alt="ui"  />
-</div>
+<Image name="09_final_tips/04.jpg" />
+
 
 توجه به این تصمیمات خلاقانه، یک روش عالی برای کشف ایده های جدید برای به کار گیری در طراحی هایتان است.
 
@@ -34,9 +38,8 @@
 
 زمانی که به دنبال تفاوت ظاهر طرح خود با نسخه اصلی هستید، ترفند هایی مانند"کاهش ارتفاع خط برای عنوان"، "افزودن فاصله بین حروف در حروف بزرگ" یا "ترکیب چندین سایه" را کشف خواهید کرد.
 
-<div class="flex justify-center my-12">
-    <img src="/images/refactoring-ui/image469.jpg" alt="ui"  />
-</div>
+<Image name="09_final_tips/05.jpg" />
+
 
 با مطالعه مداوم و دقیق محصولات مختلف و الهام گرفتن از طرح های سایر طراحان، ترفند های طراحی زیادی را خواهید آموخت.
 
