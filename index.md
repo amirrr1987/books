@@ -5,7 +5,7 @@ hero:
   name: "کتاب‌های تخصصی"
   tagline: "یادگیری پیشرفته Vue.js، Nest.js و طراحی رابط کاربری"
   image:
-    src: "/images/refactoring-ui/image1.png" # یک تصویر حرفه‌ای از پوشه public
+    src: "images/refactoring-ui/01_introduction/01.png" 
     alt: "تصویر هیرو"
   actions:
     - theme: brand
