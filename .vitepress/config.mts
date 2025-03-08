@@ -48,7 +48,16 @@ export default defineConfig({
             },
             {
               text: "کار با تصاویر",
-              link: "/books/refactoring-ui/08_Working_With_Images",
+              items: [
+                {
+                  text: "بخش اول",
+                  link: "/books/refactoring-ui/08_Working_With_Images/section_01",
+                },
+                {
+                  text: "بخش دوم",
+                  link: "/books/refactoring-ui/08_Working_With_Images/section_02",
+                },
+              ],
             },
             {
               text: "نکات نهایی و یادگیری بیشتر",
