@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import { Image } from "ant-design-vue/es";
+import { Image } from "ant-design-vue";
 interface Props {
   name: string;
 }
