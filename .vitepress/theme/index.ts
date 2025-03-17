@@ -1,6 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from "vue";
 import type { Theme } from "vitepress";
+import "ant-design-vue/dist/reset.css";
 import DefaultTheme from "vitepress/theme";
 import "./style.css";
 

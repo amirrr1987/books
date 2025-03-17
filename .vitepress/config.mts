@@ -127,17 +127,17 @@ export default defineConfig({
       message: "با عشق برای جامعه برنامه‌نویسان فارسی‌زبان",
       copyright: "© 2025 - تمامی حقوق محفوظ است",
     },
-    editLink: {
-      pattern: "https://github.com/amirrr1987/my-books/edit/main/:path",
-      text: "ویرایش این صفحه در گیت‌هاب",
-    },
-    lastUpdated: {
-      text: "آخرین به‌روزرسانی",
-      formatOptions: {
-        dateStyle: "full",
-        timeStyle: "medium",
-      },
-    },
+    // editLink: {
+    //   pattern: "https://github.com/amirrr1987/my-books/edit/main/:path",
+    //   text: "ویرایش این صفحه در گیت‌هاب",
+    // },
+    // lastUpdated: {
+    //   text: "آخرین به‌روزرسانی",
+    //   formatOptions: {
+    //     dateStyle: "full",
+    //     timeStyle: "medium",
+    //   },
+    // },
   },
   appearance: "dark",
 });
